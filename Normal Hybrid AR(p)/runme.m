@@ -14,10 +14,7 @@ clc
 
 fs = 250; % Sampling frequency [Hz] (index/sec)
 
-y=load(fullfile('Datasets','SED974_lite.mat'));
-y=y.data;
-y=y(1,:);
-dataEEG=y(306*60*250:316*60*250)';
+dataEEG=load(fullfile('Datasets','SED974_lite.mat'));
 
 
 HybridAlgorithm(dataEEG,'pmin',11,'pmax',15,'maxIter',50,'minibatch_size',1250,'online',0);

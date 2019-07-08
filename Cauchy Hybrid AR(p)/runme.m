@@ -7,10 +7,10 @@ fs=250;
 % dataEEG=load('SED974_lite.mat');
 % dataEEG=dataEEG.data;
 
-% data = load('SED10.mat');
-% data=data.data;
-% channel=1; % Frontal Channel
-% dataEEG = data(channel,600*fs+1:1880*fs)'; % alpha oscillations
+data = load('SED10.mat');
+data=data.data;
+channel=1; % Frontal Channel
+dataEEG = data(channel,600*fs+1:1880*fs)'; % alpha oscillations
 R=0.1;
 dataEEG=dataEEG./(max(abs(dataEEG))); % data normalization 
 

@@ -1,5 +1,7 @@
 # Hybrid-Autoregressive-Toolbox
 Toolbox for parametric analysis of non-stationary univariate time series data
+A description of how to use the routines is given below.
+For the mathematical models, see pdf files in master: My MSc. thesis and the paper published in IEEE BIBE 2019 related to this work.
 
 # Normal Hybrid Kalman Filtering
 Call HybridAlgorithm. In order to generate the spectrogram of a time-series, the user has to just input the time series and run this routine. The output is the time-varying spectral estimation of the time-series. Output also inlcudes metrics including AIC scores for the different model orders and EM algorithm convergence. Finally, the temporal evolution of the autoregressive coefficients is plotted.

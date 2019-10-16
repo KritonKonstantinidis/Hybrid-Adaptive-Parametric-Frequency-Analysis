@@ -8,7 +8,7 @@ Call HybridAlgorithm. In order to generate the spectrogram of a time-series, the
 
 The user has the liberty to modify the following parameters:
 
-Exponential smoothing of AR coefficients (default:Off) Sampling rate (default: 250Hz)
+Exponential smoothing of AR coefficients (default:Off) Sampling rate (default: 250Hz) \
 Frequency resolution (default: 4 index/Hz)
 Maximum of frequency range (default: 50 Hz)
 Minimum of frequency range (default: 0.0001 Hz)

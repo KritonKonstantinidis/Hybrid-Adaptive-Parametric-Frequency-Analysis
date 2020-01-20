@@ -1,4 +1,4 @@
-# Hybrid-Autoregressive-Toolbox
+# Hybrid Parametric Frequency Analysis
 
 Toolbox for parametric analysis of non-stationary univariate time series data based on Kalman and Sequential Monte Carlo filtering on a hybrid state-space model. 
 
